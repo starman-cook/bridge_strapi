@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "nav": {
+      "type": "component",
+      "component": "footer.nav",
+      "repeatable": true
+    },
+    "contacts": {
+      "type": "component",
+      "component": "footer.contacts",
+      "repeatable": false
+    },
+    "copyright": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

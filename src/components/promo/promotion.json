@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_promo_promotions",
+  "info": {
+    "displayName": "Promotion"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "stats": {
+      "type": "component",
+      "component": "promo-statistics.statistics",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

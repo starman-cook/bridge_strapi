@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_footer_navs",
+  "info": {
+    "displayName": "Nav"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

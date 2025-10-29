@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_contacts_forms",
+  "info": {
+    "displayName": "Form"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "privacy": {
+      "type": "string"
+    },
+    "privacyBold": {
+      "type": "string"
+    },
+    "namePlaceholder": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "messagePlaceholder": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

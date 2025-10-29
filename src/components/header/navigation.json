@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_header_navigations",
+  "info": {
+    "displayName": "Navigation"
+  },
+  "options": {},
+  "attributes": {
+    "about": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "string"
+    },
+    "investors": {
+      "type": "string"
+    },
+    "news": {
+      "type": "string"
+    },
+    "partners": {
+      "type": "string"
+    },
+    "contacts": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

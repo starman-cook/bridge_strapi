@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_mission_missions",
+  "info": {
+    "displayName": "Mission"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "component": "mission.items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

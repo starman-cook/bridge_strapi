@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_promo_statistics_stats_items",
+  "info": {
+    "displayName": "stats_items"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

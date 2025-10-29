@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_footer_contacts",
+  "info": {
+    "displayName": "Contacts"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "phoneValue": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "emailValue": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

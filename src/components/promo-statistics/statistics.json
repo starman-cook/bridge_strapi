@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_promo_statistics_statistics",
+  "info": {
+    "displayName": "Statistics"
+  },
+  "options": {},
+  "attributes": {
+    "stats_items": {
+      "type": "component",
+      "component": "promo-statistics.stats-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

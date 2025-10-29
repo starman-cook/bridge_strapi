@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_projects_projects",
+  "info": {
+    "displayName": "Projects"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "component": "projects.images",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
