@@ -10,6 +10,11 @@
     },
     "title": {
       "type": "string"
+    },
+    "partners_images": {
+      "type": "component",
+      "component": "partners.partners-images",
+      "repeatable": true
     }
   },
   "config": {}

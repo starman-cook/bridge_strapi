@@ -1,16 +1,10 @@
 {
-  "collectionName": "components_promo_statistics_stats_items",
+  "collectionName": "components_partners_partners_images",
   "info": {
-    "displayName": "stats_items"
+    "displayName": "partners_images"
   },
   "options": {},
   "attributes": {
-    "value": {
-      "type": "string"
-    },
-    "label": {
-      "type": "string"
-    },
     "image": {
       "type": "media",
       "multiple": false,

@@ -134,6 +134,7 @@ export interface MissionItems extends Struct.ComponentSchema {
     displayName: 'Items';
   };
   attributes: {
+    image: Schema.Attribute.Media<'images'>;
     text: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
@@ -183,7 +184,21 @@ export interface PartnersPartners extends Struct.ComponentSchema {
   };
   attributes: {
     label: Schema.Attribute.String;
+    partners_images: Schema.Attribute.Component<
+      'partners.partners-images',
+      true
+    >;
     title: Schema.Attribute.String;
+  };
+}
+
+export interface PartnersPartnersImages extends Struct.ComponentSchema {
+  collectionName: 'components_partners_partners_images';
+  info: {
+    displayName: 'partners_images';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<'images'>;
   };
 }
 
@@ -239,6 +254,7 @@ export interface PromoStatisticsStatsItem extends Struct.ComponentSchema {
     displayName: 'stats_items';
   };
   attributes: {
+    image: Schema.Attribute.Media<'images'>;
     label: Schema.Attribute.String;
     value: Schema.Attribute.String;
   };
@@ -287,6 +303,7 @@ declare module '@strapi/strapi' {
       'news.items': NewsItems;
       'news.news': NewsNews;
       'partners.partners': PartnersPartners;
+      'partners.partners-images': PartnersPartnersImages;
       'plans.plans': PlansPlans;
       'projects.images': ProjectsImages;
       'projects.projects': ProjectsProjects;

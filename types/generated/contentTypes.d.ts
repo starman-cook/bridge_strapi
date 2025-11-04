@@ -449,13 +449,13 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     about: Schema.Attribute.Component<'about.about', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     contacts: Schema.Attribute.Component<'contacts.contacts', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     createdAt: Schema.Attribute.DateTime;
@@ -464,19 +464,19 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     footer: Schema.Attribute.Component<'footer.footer', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     header: Schema.Attribute.Component<'header.header', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     investors: Schema.Attribute.Component<'investors.investors', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     locale: Schema.Attribute.String;
@@ -484,37 +484,37 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     mission: Schema.Attribute.Component<'mission.mission', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     news: Schema.Attribute.Component<'news.news', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     partners: Schema.Attribute.Component<'partners.partners', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     plans: Schema.Attribute.Component<'plans.plans', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     projects: Schema.Attribute.Component<'projects.projects', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     promo: Schema.Attribute.Component<'promo.promotion', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     publishedAt: Schema.Attribute.DateTime;
@@ -524,7 +524,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     values: Schema.Attribute.Component<'values.values', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
   };
